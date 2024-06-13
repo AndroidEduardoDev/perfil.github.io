@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Login</title>
+    <style>
+        .vaquita{
+            background-image: url("https://www.shutterstock.com/image-vector/vector-cow-seamless-pattern-black-600nw-2349903325.jpg");
+            padding: 1.5%;
+            width: 500px;
+            height: 100px;
+            border-style: solid;
+            
+        }
+        .ojo{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: rgb(57, 57, 181);
+            border-radius: 50px;
+        }
+
+        .naris{
+            margin-top: 100px;
+            margin-left: 40px;
+            width: 50px;
+            height: 50px;
+            background-color: rgb(213, 22, 203);
+        }
+         .izquierdo {
+            margin-left: 100px;
+        }
+        
+        .cabeza{
+            backdrop-filter: blur(3px);
+            width: 40%;
+            border-style: solid;
+            border-color: black;
+        }
+        .patita{
+            border-style: solid;
+            border-color: black;
+            position: absolute;
+            width: 30px;
+            height: 100px;
+            background-image: url("https://www.shutterstock.com/image-vector/vector-cow-seamless-pattern-black-600nw-2349903325.jpg");
+        }
+
+        #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+
+    </style>
+</head>
+<body >
+
+    <video autoplay muted loop id="myVideo">
+        <source src="myvideo." type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    <div class="vaquita" >
+        <div class="cabeza">
+            <div class="ojo"></div>
+            <div class="ojo izquierdo"></div>
+            <div class="naris"></div>
+        </div>
+    </div>
+    <div class="patita" style="margin-left: 5%;"></div>
+    <div class="patita" style="margin-left: 10%;"></div>
+    <div class="patita" style="margin-left: 15%;"></div>
+    <div class="patita" style="margin-left: 20%;"></div>
+    
+</body>
+</html>
